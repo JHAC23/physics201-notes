@@ -208,67 +208,9 @@ Practical additions:
 - Carry the units through the algebra — they'll catch sign and setup errors.
 
 ---
-
 ## 10. Worked Examples
 
-### Example A — Position under constant velocity
-
-*Path 2: Where is the car 45.0 min after it leaves Anderson?*
-
-**Given:** $x_0 = +19.0$ mi, $v = +50.0$ mi/hr, $t = 45.0$ min
-
-**Convert time first:**
-
-$$45.0\ \text{min} \left(\frac{1\ \text{hr}}{60\ \text{min}}\right) = 0.750\ \text{hr}$$
-
-**Apply $x = x_0 + vt$:**
-
-$$x = +19.0\ \text{mi} + (+50.0\ \text{mi/hr})(0.750\ \text{hr}) = +56.5\ \text{mi}$$
-
-> 📌 *Note: the handwritten value reads +56.0 mi; $19.0 + 37.5 = 56.5$, so double-check this one against the board.* Either way it lands near the GSP airport exit.
-
----
-
-### Example B — Building a full motion table ($a = +4.47$ m/s²)
-
-$v_0 = +5.00$ m/s, $x_0 = 0$ m, constant $a = +4.47$ m/s²
-
-Using $v = v_0 + at$ and $x = x_0 + v_0 t + \tfrac{1}{2}at^2$:
-
-| $t$ (s) | $v = v_0 + at$ (m/s) | $x = x_0 + v_0t + \tfrac{1}{2}at^2$ (m) |
-|---|---|---|
-| 0 | +5.00 | 0 |
-| 2.00 | 13.94 | 18.94 |
-| 4.00 | 22.88 | 55.76 |
-| 6.00 | 31.80 | 110.5 |
-
-**Sample work at $t = 2.00$ s:**
-
-$$v = (+5.00\ \text{m/s}) + (4.47\ \text{m/s}^2)(2.00\ \text{s}) = 13.94\ \text{m/s}$$
-
-$$x = 0\ \text{m} + (5.00\ \text{m/s})(2.00\ \text{s}) + \tfrac{1}{2}(4.47\ \text{m/s}^2)(2.00\ \text{s})^2 = 10.0 + 8.94 = 18.94\ \text{m}$$
-
----
-
-### Example C — Crash test (no time given → equation 4)
-
-*A car traveling at +18.0 m/s hits a wall and stops in 1.20 m. What is the acceleration?*
-
-**1. Want:** $a$
-**2. Given:** $v_0 = +18.0$ m/s, $v = 0$ m/s, $x - x_0 = 1.20$ m, **no time given**
-**3. Equation:** no $t$ anywhere → use $v^2 = v_0^2 + 2a(x - x_0)$
-
-**Solve for $a$ first, then plug in:**
-
-$$v^2 - v_0^2 = 2a(x - x_0) \quad\Longrightarrow\quad a = \frac{v^2 - v_0^2}{2(x - x_0)}$$
-
-$$a = \frac{(0\ \text{m/s})^2 - (18.0\ \text{m/s})^2}{2(1.20\ \text{m} - 0\ \text{m})} = \frac{-324\ \text{m}^2/\text{s}^2}{2.40\ \text{m}}$$
-
-$$\boxed{a = -135\ \text{m/s}^2}$$
-
-**Unit check:** $\dfrac{\text{m}^2/\text{s}^2}{\text{m}} = \text{m/s}^2$ ✓
-
-**Sign check:** velocity is +, acceleration is − → opposite directions → slowing down ✓ (and violently — that's about 14 g).
+Every fully worked example — the I-85 position problem, the full motion table, and the crash test — now lives in **[Worked Problems](../problems/ch02-worked.md)**, written in exam format (asked / given / missing / equation / work / checks). This keeps the concept notes here short and the problem-solving practice in one dedicated place.
 
 ---
 
