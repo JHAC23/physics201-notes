@@ -1,4 +1,4 @@
-site_name: PHY201 Notes
+site_name: PHY-201 Notes
 site_description: Physics course notes — PHY-201-001
 
 theme:
@@ -31,6 +31,8 @@ nav:
       - "Ch. 2 — Motion in 1D": notes/ch02-motion-in-one-dimension.md
   - Problems:
       - "Ch. 2 — Worked": problems/ch02-worked.md
+  - Tools:
+      - "Kinematics Grapher": tools/kinematics-grapher.html
   - Mistake Log: mistakes.md
   - Equation Sheet: reference/equation-sheet.md
 
