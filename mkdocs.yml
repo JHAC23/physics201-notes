@@ -1,0 +1,56 @@
+site_name: PHY201 Notes
+site_description: Physics course notes — PHY-201-001
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Notes:
+      - "Ch. 2 — Motion in 1D": notes/ch02-motion-in-one-dimension.md
+  - Problems:
+      - "Ch. 2 — Worked": problems/ch02-worked.md
+  - Mistake Log: mistakes.md
+  - Equation Sheet: reference/equation-sheet.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
